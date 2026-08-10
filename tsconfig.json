@@ -30,7 +30,7 @@
     "**/*.mts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/app/(08.Dynamic Routes)/blogs/page.jsx"  ],
   "exclude": [
     "node_modules"
   ]

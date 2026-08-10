@@ -6,8 +6,8 @@ import { useRouter } from 'next/navigation'
 const page = () => {
 // 1st way
   const router = useRouter() // we have to const router = useRouter() so that we can use router.push() to navigate to another page
+ 
 
-  
 //2nd way 
 const navigation = (page) => {
     router.push(page)
@@ -18,10 +18,11 @@ const navigation = (page) => {
 <h1> use Router  </h1>
 
 <button onClick={()=> router.push('/')}>
- route </button> 
+ route to home </button> 
 
- <button onClick={()=> navigation('/')}>
- route </button>  
+ <button onClick={()=> navigation('/usestate')}>
+ route to use state </button>  
+
 
  </div>
   )

@@ -237,8 +237,21 @@ This can handle:
 - `/article/tech/news/2025/01/01`
 
 ---
+---
+# 10. Redirect
 
+Redirect is used to redirect the user to another page.
 
+Example:
+```jsx
+import { redirect } from 'next/navigation'
+
+export default function Redirect() {
+  redirect('/home')
+}
+```
+
+---
 # . React Topics I MUST Learn
 
 Before going too deep into Next.js, learn these React concepts:

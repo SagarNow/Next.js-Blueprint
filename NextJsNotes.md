@@ -250,8 +250,50 @@ export default function Redirect() {
   redirect('/home')
 }
 ```
+# 11. layout
+Layout is used to create a common structure for all the pages
+```For multiple pages header and footer are same which can be handled by "layout.js" file```
+## Project Structure
+```
+/project-root
+  /app
+    /college
+      layout.jsx
+  /Components
+    NavBar.jsx
+    Footer.jsx
+```
+## layout.jsx
+```
+import React from "react";
+import NavBar from "../../Components/NavBar";
+import Footer from "../../Components/Footer";
+const layout = ({ children }) => {
+  return (
+    <div>
+      <NavBar />
+      {children}
+      <Footer />
+    </div>
+  );
+};
+```
+---
+# 12. Images
+
+Next.js provides an `Image` component that optimizes images for better performance.
+
+
 
 ---
+
+
+
+
+
+
+
+
 # . React Topics I MUST Learn
 
 Before going too deep into Next.js, learn these React concepts:

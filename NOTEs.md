@@ -218,8 +218,28 @@ use:
 at the top of the file.
 
 ---
+# 9. Catch all routes
 
-# 9. React Topics I MUST Learn
+Catch-All Routes are used when we want to catch multiple URL segments.
+
+Use `[...name]` to create a Catch-All Route.
+
+Example:
+```
+app/
+└── article/
+    └── [...article]/
+        └── page.jsx
+```
+This can handle:
+- `/article/hello-world`
+- `/article/tech/news`
+- `/article/tech/news/2025/01/01`
+
+---
+
+
+# . React Topics I MUST Learn
 
 Before going too deep into Next.js, learn these React concepts:
 
@@ -238,7 +258,7 @@ Before going too deep into Next.js, learn these React concepts:
 
 ---
 
-# 10. Next.js Topics I MUST Learn
+# . Next.js Topics I MUST Learn
 
 These are the important topics I should learn:
 
@@ -281,7 +301,7 @@ These are the important topics I should learn:
 
 ---
 
-# 11. Learning Order
+# . Learning Order
 
 I should learn in this order:
 

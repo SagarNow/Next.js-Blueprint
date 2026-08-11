@@ -283,11 +283,24 @@ const layout = ({ children }) => {
 
 Next.js provides an `Image` component that optimizes images for better performance.
 
+```
+import Image from 'next/image'
+const page = () => {
+  return (
+    <div className='h-screen w-screen'>
+      <Image src="/Premanadji.jpg" alt="Premanadji" width={500} height={500} />
+    </div>
+  )
+}
 
+export default page
+```
 
 ---
+# 13. Client Side Fetching/Remdering
+Client-Side Fetching/Rendering (CSR) means that the browser fetches the data and renders/updates the UI after the page has loaded, instead of Next.js generating the data on the server first.
 
-
+---
 
 
 

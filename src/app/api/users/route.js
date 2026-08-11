@@ -1,4 +1,4 @@
 import { NextResponse } from "next/server";
 export function GET() {
-  return NextResponse.json({ user: "Radha" });
+  return NextResponse.json({ user: "Radha rani" });
 }
